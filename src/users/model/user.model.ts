@@ -31,6 +31,7 @@ export class User {
 
   @Prop({ type: Object })
   address: {
+    address: string;
     city: string;
     state: string;
     cep: string;
